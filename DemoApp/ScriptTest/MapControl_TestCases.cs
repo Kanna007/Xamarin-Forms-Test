@@ -31,7 +31,7 @@ namespace ScriptTest
         [Test]
         public void Maps_Types001()
         {
-            app.Tap("map");
+            app.Tap("Map");
             app.Tap("sat");
             Thread.Sleep(2000);
             app.Screenshot("Maps_Types001");
@@ -39,7 +39,7 @@ namespace ScriptTest
         [Test]
         public void Maps_Types002()
         {
-            app.Tap("map");
+            app.Tap("Map");
             app.Tap("street");
             Thread.Sleep(2000);
             app.Screenshot("Maps_Types002");
@@ -47,7 +47,7 @@ namespace ScriptTest
         [Test]
         public void Maps_Types003()
         {
-            app.Tap("map");
+            app.Tap("Map");
             app.Tap("hybrid");
             Thread.Sleep(2000);
             app.Screenshot("Maps_Types003");
