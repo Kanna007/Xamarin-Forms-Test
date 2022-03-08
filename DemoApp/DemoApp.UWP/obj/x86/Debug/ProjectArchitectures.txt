@@ -1,0 +1,1 @@
+E:\TEST\DemoApp\DemoApp.UWP\DemoApp.UWP.csproj;x86

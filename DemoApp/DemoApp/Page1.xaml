@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoApp.Page1"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+    <StackLayout>
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+        </Grid>-->
+        <maps:Map x:Name="MapControl" IsShowingUser="True" Grid.Row="0"/>
+        <StackLayout Orientation="Horizontal" 
+                     Spacing="30"
+                     HorizontalOptions="Center"
+                     >
+
+            <Button x:Name="Satilite" Text="Satilite" AutomationId="sat" Clicked="Satilite_Clicked"/>
+            <Button x:Name="Street" Text="Street" AutomationId="street" Clicked="Street_Clicked"/>
+            <Button x:Name="Hybrid" Text="Hybrid" AutomationId="hybrid" Clicked="Hybrid_Clicked" />
+        </StackLayout>
+        
+        
+    </StackLayout>
+</ContentPage>
