@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoApp.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="Firstname"
+               AutomationId="firttext"
+               Placeholder="First name"
+               FontSize="Medium"/>
+        <Entry x:Name="Lastname"
+               AutomationId="secondtext"
+               Placeholder="Second name"
+               FontSize="Medium"/>
+        <Button x:Name="btn1"
+                Text="Combine"
+                AutomationId="combine"
+                BackgroundColor="Blue"
+                TextColor="Red"
+                Clicked="click"/>
+        <Label x:Name="returntype"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               TextColor="Green"/>
+        <Button x:Name="Nextpage1"
+                Text="Nextpage1"
+                     Clicked="Nextpage1_Clicked"/>
+        <Button x:Name="Mapcontrolpage"
+                Text="Map_Control"
+                AutomationId="Map"
+                Clicked="Mapcontrolpage_Clicked"/>
+        <Button x:Name="DatePicker"
+                Text="Date_Picker"/>
+        <Button x:Name="carousal"
+                Text="Carousal"/>
+        <Button x:Name="Btntypes"
+                Text="Button_Types"/>
+    </StackLayout>
+        
+
+
+</ContentPage>
